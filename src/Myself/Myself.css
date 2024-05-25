@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Dancing+Script:wght@400..700&display=swap');
+
+.Myself {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09091c;
+    
+    color: white;
+}
+.row{
+    display: flex;
+}
+
+
+.self1>h6 {
+    margin: 10px;
+    width: 400px;
+
+    font-family: serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: small;
+
+
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #024d72;
+    
+
+
+
+}
+
+a>button {
+
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+button:hover {
+    box-shadow: 0 0 10px 5px #54fcfc;
+    background-color: #54fcfc;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+.self1 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+    z-index: 1;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+    border: 0.2px solid whitesmoke;
+
+
+}
+
+
+.ani_flag {
+    height: 40px;
+
+
+
+
+}
+
+.self1>h1 {
+    height: 60px;
+    padding-top: 10px;
+    color: transparent;
+    font-family: "Changa", sans-serif;
+    background-image: linear-gradient(43deg, rgb(0, 115, 255) 0%, white);
+    background-clip: text;
+    margin-bottom: 10px;
+    font-size: 50px;
+
+
+}
+
+@media(max-width:810px) {
+    .myself_ani {
+        height: 400px;
+        margin: 0;
+    }
+
+    .Myself {
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap-reverse;
+    }
+
+    .self1 {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        margin-right: 0;
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        border: 0.2px solid whitesmoke;
+
+
+
+    }
+
+    .self1 h6 {
+        padding-left: 15px;
+        font-size: 10px;
+        width: 250px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .self1 h1 {
+        padding: 0;
+
+        height: 20px;
+        font-size: medium;
+    }
+
+    .ani_flag {
+        height: 20px;
+    }
+
+    .self1 a button {
+        margin-left: 10px;
+        height: 20px;
+        width: 50px;
+        border-radius: 3px;
+        font-size: 5px;
+    }
+}

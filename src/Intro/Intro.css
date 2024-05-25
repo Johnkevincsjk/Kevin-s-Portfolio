@@ -1,0 +1,101 @@
+.intro {
+    line-height: 60px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: auto;
+    width: 100%;
+    font-size: 30px;
+
+}
+#intro{
+    height: 100vh;
+}
+
+
+.intro_content {
+
+    padding: 40px;
+    z-index: 1;
+}
+
+#bg_particales {
+    opacity: 0.5;
+
+
+}
+
+pre {
+    border-left: 1px solid orange;
+    padding-left: 20px;
+}
+
+.myname>pre>h1 {
+    color: transparent;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 1px orange;
+    position: relative;
+
+}
+.myname{
+    margin-bottom: 0;
+}
+
+
+
+
+
+.myname>pre>h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+.Intro_ani {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+
+
+.contacts>a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 60%);
+    transition: 0.2s;
+}
+
+.insta:hover {
+    color: crimson;
+
+}
+
+.Linkedin:hover {
+    color: #0000fd;
+}
+
+.mail:hover {
+    color:rgb(200, 0, 255);
+}
+
+.whatsapp:hover {
+    color: green;
+
+}
+.github:hover{
+    color: yellow;
+}
+
+
+
+@media (max-width:770px) {
+    .intro_content {
+        display: flex;
+        flex: content;
+       
+        justify-content: center;
+        align-items: center;
+    }
+}

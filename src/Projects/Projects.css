@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+
+.Project_body {
+    height: auto;
+    width: 100%;
+    
+    background-color: #09091c;
+    
+
+}
+
+.Project_body>h2 {
+    font-family: "Spline Sans", sans-serif;
+    color: white;
+    
+    font-weight: 900px;
+    text-align: center;
+}
+
+.projects_cards {
+
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
+
+    h6 {
+        font-size: 30px;
+        display: inline-block;
+
+    }
+}
+
+
+.social_acc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 100px;
+
+}
+
+.thx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.protfolio {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: white;
+    }
+
+}
+
+
+
+.social_acc1 {
+
+    width: 300px;
+}
+
+.social_acc1 ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    color: white;
+}

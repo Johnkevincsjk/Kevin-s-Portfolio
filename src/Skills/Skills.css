@@ -1,0 +1,109 @@
+.skills_section {
+
+    height: auto;
+    background: #09091c;
+    
+    
+}
+
+.skill_body {
+    height: 100vh;
+}
+.skill_header h1{
+    color: white;
+    text-align: center;
+}
+
+
+.skills_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 0.4px rgba(0, 0, 0, 0.484);
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid white;
+    /* background-color: rgba(255, 255, 255, 0.758); */
+    z-index: 1;
+
+
+}
+
+.Skill_image {
+    z-index: 1;
+}
+
+
+
+.Skill_image>img {
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    mix-blend-mode: multiply;
+
+}
+
+
+
+
+.progress {
+    width: 200px;
+}
+
+.progress-bar {
+    width: 70%;
+}
+
+#css {
+    width: 85%;
+}
+
+#JS {
+    width: 65%;
+}
+
+#react {
+    width: 80%;
+}
+
+#Node {
+    width: 85%;
+}
+
+#Mysql {
+    width: 45%;
+}
+
+#Express {
+    width: 60%;
+}
+
+#Mongo {
+    width: 70%;
+}
+
+#Git {
+    width: 80%;
+}
+
+#VS {
+    width: 85%;
+}
+
+#Postman {
+    width: 80%;
+}
+
+
+@media(max-width:890px) {
+
+    .skill_body {
+    height: auto;
+    overflow: scroll;
+}
+}
