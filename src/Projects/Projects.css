@@ -4,8 +4,12 @@
 .Project_body {
     height: auto;
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #09091c;
+    padding-top: 100px;
     
 
 }
