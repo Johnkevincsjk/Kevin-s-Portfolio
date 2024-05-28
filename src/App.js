@@ -13,7 +13,7 @@ function App() {
   return (
     <motion.div className='body'>
       <section id='intro'>
-        <ParticlesComponent id='bg_particales' />
+    
         <Nav />
         <Intro />
       </section>
@@ -23,6 +23,7 @@ function App() {
 
 
       <section id='myself'>
+      <ParticlesComponent id='bg_particales' />
         <Myself />
       </section>
 
