@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Projects/Project_one.css'
+import { motion } from 'framer-motion'
 
 export default function Projects_one() {
     return (
@@ -12,7 +13,7 @@ export default function Projects_one() {
                         <p>demouser123@gmail.com</p>
                         <h5>Password:</h5>
                         <p>12345678</p>
-                        <a href="https://main--jovial-figolla-438fd1.netlify.app/" target='_black' className="btn btn-primary">Try now</a>
+                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href="https://main--jovial-figolla-438fd1.netlify.app/" target='_black' className="btn btn-primary">Try now</motion.a>
                     </div>
 
                 </div>
