@@ -2,14 +2,15 @@
 
     height: auto;
     background: #09091c;
-    
-    
+
+
 }
 
 .skill_body {
     height: 100vh;
 }
-.skill_header h1{
+
+.skill_header h1 {
     color: white;
     text-align: center;
 }
@@ -23,14 +24,19 @@
     border: none;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 1px 1px 2px 0.4px rgba(0, 0, 0, 0.484);
+    transition: 0.2s;
     margin: 10px 5px;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(191, 0, 255);
     /* background-color: rgba(255, 255, 255, 0.758); */
     z-index: 1;
 
 
+}
+
+.skills_cards:hover {
+    box-shadow: 1px 1px 10px rgb(191, 0, 255);
+    scale: 1.1;
 }
 
 .Skill_image {
@@ -103,7 +109,7 @@
 @media(max-width:890px) {
 
     .skill_body {
-    height: auto;
-    overflow: scroll;
-}
+        height: auto;
+        overflow: scroll;
+    }
 }

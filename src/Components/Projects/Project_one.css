@@ -16,6 +16,13 @@
     border-radius: 20px;
     padding: 0;
     position: relative;
+    transition: 1s;
+
+}
+
+.project_card:hover {
+    box-shadow: 1px 1px 8px rgb(67, 160, 70);
+    scale: 1.1;
 }
 
 #project1_img {
@@ -53,11 +60,12 @@
 
     }
 
-    
+
 
 
 }
 
 .project_card:hover .card_body {
-    top: 0
+    top: 0;
+
 }

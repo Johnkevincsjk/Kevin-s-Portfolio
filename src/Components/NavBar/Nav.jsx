@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../NavBar/Nav.css'
 import { motion } from "framer-motion"
-import { FaChild,FaGithub, FaEnvelope, FaInstagram, FaLinkedin, FaPhone, FaWhatsapp } from 'react-icons/fa'
+import { FaChild, FaGithub, FaEnvelope, FaInstagram, FaLinkedin, FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 export default function Nav() {
 
@@ -10,6 +10,7 @@ export default function Nav() {
 
     return (
         <div className="nav_main">
+           
             <motion.div initial={{ x: 100 }} transition={{ duration: 1 }} animate={{ x: 0 }} className="nav_menu">
                 <button onClick={handletoggle}><FaChild /></button>
             </motion.div>
