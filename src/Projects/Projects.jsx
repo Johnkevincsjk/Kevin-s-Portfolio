@@ -7,9 +7,10 @@ import Projects_one from '../Components/Projects/Projects_one'
 export default function Projects() {
     return (
         <div className='Project_body'>
-            <motion.h2>My Projects</motion.h2>
+            
+            <motion.h2 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>Projects</motion.h2>
             <div className="projects_cards">
-                <Projects_one/>
+                <Projects_one />
             </div>
             <div className="contact">
                 <motion.h6 initial={{ x: 800 }} animate={{ x: 0 }} transition={{ duration: 2 }}  ><FaArrowRight /></motion.h6>

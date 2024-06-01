@@ -9,3 +9,16 @@ add resume link in the button section
 my skills -
 header needs to be brightened 
 
+
+
+use the below font for main headlings
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.Project_body>h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900px;
+   
+}

@@ -6,9 +6,9 @@ import React from 'react'
 export default function Skills() {
     return (
         <div className='container-fluid skills_section'>
-            <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} className="skill_header">
-                <h1>Professional Skillset</h1>
-            </motion.div>
+            <div className="skill_header">
+                <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>Professional Skillset</motion.h1>
+            </div>
 
 
 
@@ -18,7 +18,7 @@ export default function Skills() {
                         <img src="html.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -35,7 +35,7 @@ export default function Skills() {
                         <img src="css.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -53,7 +53,7 @@ export default function Skills() {
                         <img src="js.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -73,7 +73,7 @@ export default function Skills() {
                         <img src="bootstrap.jpg" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -93,7 +93,7 @@ export default function Skills() {
                         <img src="react.jpg" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -114,7 +114,7 @@ export default function Skills() {
                         <img src="nodejs.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -135,7 +135,7 @@ export default function Skills() {
                         <img src="mysql.jpg" />
                     </div>
                     <div className="skill_name">
-                        
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -155,7 +155,7 @@ export default function Skills() {
                         <img src="ex.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -175,7 +175,7 @@ export default function Skills() {
                         <img src="mongodb.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -191,7 +191,7 @@ export default function Skills() {
                         <img src="github.png" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -211,7 +211,7 @@ export default function Skills() {
                         <img src="vscode.jpg" />
                     </div>
                     <div className="skill_name">
-                        
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -231,7 +231,7 @@ export default function Skills() {
                         <img src="postman-icon.webp" />
                     </div>
                     <div className="skill_name">
-                       
+
                     </div>
                     <div className="Skill_percentage">
                         <div className="progress " role="progressbar " aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">

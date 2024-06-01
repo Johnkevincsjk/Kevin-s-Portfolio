@@ -1,18 +1,36 @@
-.skills_section {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.skills_section {
+    text-align: center;
     height: auto;
-    background: #09091c;
+    background: #010215;
+    padding-top: 100px;
 
 
 }
 
 .skill_body {
-    height: 100vh;
+    padding: 40px 0;
+    height: auto;
+}
+
+.skill_header {
+    padding-left: 20px;
+    margin-left: 55px;
+    text-align: center;
+    border-bottom: 1px solid #a109cfaf;
+    width: 90%;
+
 }
 
 .skill_header h1 {
-    color: white;
+   
     text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900px;
 }
 
 
@@ -22,6 +40,7 @@
     justify-content: center;
     align-items: center;
     border: none;
+    margin-top: 50px;
     width: 200px;
     border-radius: 10px;
     transition: 0.2s;
@@ -104,17 +123,11 @@
     width: 80%;
 }
 
+@media (max-width:572px){
+    .skill_header{
+        margin-left: 20px
 
-@media(max-width:890px) {
+    }
 
-    .skill_body {
-        height: auto;
-        overflow: scroll;
-    }
-}
-@media (max-width:770px){
-    .skills_cards{
-        margin: 50px 20px;
-        width: 100vw;
-    }
+   
 }

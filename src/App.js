@@ -13,7 +13,7 @@ function App() {
   return (
     <motion.div className='body'>
       <section id='intro'>
-    
+
         <Nav />
         <Intro />
       </section>
@@ -23,12 +23,12 @@ function App() {
 
 
       <section id='myself'>
-      <ParticlesComponent id='bg_particales' />
+        {/* <ParticlesComponent id='bg_particales' /> */}
         <Myself />
       </section>
 
 
- 
+
 
       <section id='skills'>
         <Skills />

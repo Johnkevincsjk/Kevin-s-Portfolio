@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 .Project_body {
@@ -8,16 +9,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #09091c;
+    background-color: #010215;
     padding-top: 100px;
-    
+
 
 }
 
 .Project_body>h2 {
-    font-family: "Spline Sans", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
     color: white;
-    
     font-weight: 900px;
     text-align: center;
 }
