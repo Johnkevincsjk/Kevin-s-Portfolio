@@ -1,6 +1,6 @@
 .intro {
     line-height: 60px;
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,8 @@
     font-size: 30px;
 
 }
-#intro{
+
+#intro {
     height: 100vh;
 }
 
@@ -30,18 +31,23 @@
 pre {
     border-left: 1px solid orange;
     padding-left: 20px;
+
 }
 
 .myname>pre>h1 {
     color: transparent;
-    font-family: fantasy;
     letter-spacing: 5px;
     -webkit-text-stroke: 1px orange;
     position: relative;
-
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 900px;
 }
-.myname{
+
+.myname {
     margin-bottom: 0;
+
 }
 
 
@@ -77,14 +83,15 @@ pre {
 }
 
 .mail:hover {
-    color:rgb(200, 0, 255);
+    color: rgb(200, 0, 255);
 }
 
 .whatsapp:hover {
     color: green;
 
 }
-.github:hover{
+
+.github:hover {
     color: yellow;
 }
 
@@ -94,7 +101,7 @@ pre {
     .intro_content {
         display: flex;
         flex: content;
-       
+
         justify-content: center;
         align-items: center;
     }
