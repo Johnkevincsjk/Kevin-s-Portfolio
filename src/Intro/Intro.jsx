@@ -8,13 +8,17 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 export default function Intro() {
 
     return (
+
         <div className='container-fluid intro' >
+
             <div className="row mb-5 align-items-center">
                 <div className="col-md-6 intro_content">
                     <div className="myname">
+
                         <motion.pre initial={{ opacity: 0, y: 100 }}
                             transition={{ duration: 0.9, type: "spring", stiffness: 500 }}
-                            whileInView={{ opacity: 1, y: 0 }}><h3>Hi there ! Myself</h3>
+                            whileInView={{ opacity: 1, y: 0 }}>
+                            <h3>Hi there ! Myself</h3>
                             <h1>KEVIN.</h1>
                             <h6>I'm a <h2>Fullstack Developer</h2></h6>
                         </motion.pre>

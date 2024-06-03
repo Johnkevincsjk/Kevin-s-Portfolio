@@ -1,6 +1,7 @@
 .intro {
     line-height: 60px;
-
+    
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,7 @@
 }
 
 pre {
-    border-left: 1px solid orange;
+    border-left: 1px solid #ffa500;
     padding-left: 20px;
 
 }
@@ -37,7 +38,7 @@ pre {
 .myname>pre>h1 {
     color: transparent;
     letter-spacing: 5px;
-    -webkit-text-stroke: 1px orange;
+    -webkit-text-stroke: 1px #ffa500;
     position: relative;
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
