@@ -22,7 +22,7 @@ export default function Myself() {
                 <h6>Hey !, I'm a fullstack developer and Here is something about me.
                     I am currently learning new skills with a vision of becoming better at what I do. I like Web Development and to Create a new Interfaces. I enjoy learning about technology and helping others use it to improve their lives and be more productive. I also have Frontend skills in HTML, CSS, Javascript, React js and Backend skills in node js, mongoDB, express.
                 </h6>
-                <a href='https://drive.google.com/file/d/1ARh8sC6fzG8CIN7U8yCCnkUDzZcW77T0/view?usp=drivesdk' target='_blank'><motion.button initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }}>Download Resume</motion.button></a>
+                <a href='https://drive.google.com/file/d/1G-A-iH_24WOAqs_Fup0MRLULsJi3QQbk/view?usp=sharing' target='_blank'><motion.button initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }}>Download Resume</motion.button></a>
             </motion.div>
             <div className="myself_sec2">
                 <Lottie className=' myself_ani1' animationData={myself} />
