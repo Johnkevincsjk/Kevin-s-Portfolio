@@ -90,7 +90,7 @@ export default function Skills() {
 
                 <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 0.8, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
-                        <img src="react.jpg" />
+                        <img src="https://seeklogo.com/images/R/react-logo-65B7CD91B5-seeklogo.com.png" />
                     </div>
                     <div className="skill_name">
 
@@ -152,7 +152,7 @@ export default function Skills() {
 
                 <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1.4, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
-                        <img src="ex.png" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2Cl7TKrJZnqIcySObGhSToz0G8jAHbfryA&s" />
                     </div>
                     <div className="skill_name">
 

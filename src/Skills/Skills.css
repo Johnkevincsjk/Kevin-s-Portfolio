@@ -68,8 +68,7 @@
     border-radius: 10px;
     transition: 0.5s;
     margin-bottom: 10px;
-    mix-blend-mode: multiply;
-
+   mix-blend-mode: darken;
 }
 
 
@@ -85,6 +84,7 @@
 
 #css {
     width: 85%;
+    
 }
 
 #JS {

@@ -15,13 +15,13 @@ export default function Intro() {
                 <div className="col-md-6 intro_content">
                     <div className="myname">
 
-                        <motion.pre initial={{ opacity: 0, y: 100 }}
+                        <motion.div id='myName1' initial={{ opacity: 0, y: 100 }}
                             transition={{ duration: 0.9, type: "spring", stiffness: 500 }}
                             whileInView={{ opacity: 1, y: 0 }}>
                             <h3>Hi there ! Myself</h3>
                             <h1>KEVIN.</h1>
                             <h6>I'm a <h2>Fullstack Developer</h2></h6>
-                        </motion.pre>
+                        </motion.div>
                         <motion.div initial={{ x: -500 }} transition={{ duration: 0.5, type: "spring", stiffness: 500 }} animate={{ x: 0 }} className='contacts'>
                             <a className='Linkedin' href='https://www.linkedin.com/in/kevin-jk-689875238?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQ1zBxYxRSIaj4CzY5tlm0A%3D%3D' target='_blank'><FaLinkedin /></a>
                             <a className='mail' href='mailto:johnkevin.csjk@gmail.com' target='_blank'><FaEnvelope /></a>

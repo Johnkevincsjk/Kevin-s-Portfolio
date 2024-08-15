@@ -1,7 +1,7 @@
 .intro {
     line-height: 60px;
-    
-   
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,13 +29,14 @@
 
 }
 
-pre {
+#myName1 {
     border-left: 1px solid #ffa500;
     padding-left: 20px;
+    margin-bottom: 0;
 
 }
 
-.myname>pre>h1 {
+.myname>#myName1>h1 {
     color: transparent;
     letter-spacing: 5px;
     -webkit-text-stroke: 1px #ffa500;
@@ -55,7 +56,7 @@ pre {
 
 
 
-.myname>pre>h6 {
+.myname>#myName1>h6 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 3px;
 }
@@ -74,26 +75,29 @@ pre {
     transition: 0.2s;
 }
 
-.insta:hover {
-    color: crimson;
 
-}
 
 .Linkedin:hover {
     color: #0000fd;
+    filter: drop-shadow(2px 2px 20px #0000fd);
+
 }
 
 .mail:hover {
-    color: rgb(200, 0, 255);
+    color: #c800ff;
+    filter: drop-shadow(2px 2px 20px #c800ff);
 }
 
 .whatsapp:hover {
-    color: green;
+    color: #32ff32;
+    filter: drop-shadow(2px 2px 20px #32ff32);
 
 }
 
 .github:hover {
     color: yellow;
+    filter: drop-shadow(2px 2px 20px yellow);
+    
 }
 
 

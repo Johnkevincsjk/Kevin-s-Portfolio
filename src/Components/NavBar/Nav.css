@@ -37,11 +37,13 @@
 .nav_menu {
     position: absolute;
     position: fixed;
-transition: 0.5s;
+    transition: 0.5s;
+
 }
-.nav_menu:hover{
+
+.nav_menu:hover {
     scale: 1.3;
-    
+
 
 
 }
