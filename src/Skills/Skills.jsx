@@ -30,7 +30,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 0.2, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="css.png" />
                     </div>
@@ -48,7 +48,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 0.4, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="js.png" />
                     </div>
@@ -68,7 +68,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 0.6, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="bootstrap.jpg" />
                     </div>
@@ -88,7 +88,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 0.8, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="https://seeklogo.com/images/R/react-logo-65B7CD91B5-seeklogo.com.png" />
                     </div>
@@ -109,7 +109,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="nodejs.png" />
                     </div>
@@ -130,7 +130,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1.2, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="mysql.jpg" />
                     </div>
@@ -150,7 +150,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1.4, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj2Cl7TKrJZnqIcySObGhSToz0G8jAHbfryA&s" />
                     </div>
@@ -170,7 +170,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1.6, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="mongodb.png" />
                     </div>
@@ -186,7 +186,7 @@ export default function Skills() {
                 </motion.div>
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 1.8, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="github.png" />
                     </div>
@@ -206,7 +206,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 2, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="vscode.jpg" />
                     </div>
@@ -226,7 +226,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ delay: 2.2, duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="postman-icon.webp" />
                     </div>
