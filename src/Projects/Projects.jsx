@@ -6,7 +6,8 @@ import Projects_one from '../Components/Projects/Projects_one'
 
 export default function Projects() {
     return (
-        <div className='Project_body'>
+        <div className='
+        Project_body'>
             
             <motion.h2 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>Projects</motion.h2>
             <div className="projects_cards">

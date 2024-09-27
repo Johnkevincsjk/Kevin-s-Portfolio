@@ -26,12 +26,11 @@
 
 .projects_cards {
 
-    height: 90vh;
+    height: auto;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+
+    margin: 40px 10px;
+
 }
 
 .contact {

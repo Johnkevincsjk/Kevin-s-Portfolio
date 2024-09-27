@@ -11,7 +11,7 @@ export default function Myself() {
 
         <div initial={{ opacity: 0, scaleX: 0 }}
             transition={{ duration: 0.9 }}
-            whileInView={{ opacity: 1, scaleX: 1 }} className='Myself'>
+            whileInView={{ opacity: 1, scaleX: 1 }} className='container-fluid Myself'>
             <div className="myself_sec1">
                 <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>About Myself </motion.h1>
             </div>
@@ -28,7 +28,7 @@ export default function Myself() {
                 <Lottie className=' myself_ani1' animationData={myself} />
             </div>
 
-            <div className="myself_sec3">
+            <div className="col myself_sec3">
                 <h1>Experience</h1>
                 <div className='my_experience'>
                     <p>Over the past 8 months,<span style={{ color: '#ffbd39' }}>I completed the MERN Stack Developer course at Guvi, an initiative by IIT Madras.</span> This intensive program provided hands-on experience with MongoDB, Express.js, React, and Node.js, enhancing my full-stack development skills. The curriculum was comprehensive and industry-relevant, preparing me for real-world challenges. Here is a link to my certificate.</p>

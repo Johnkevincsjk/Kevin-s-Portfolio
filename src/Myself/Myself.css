@@ -131,7 +131,7 @@ button:hover {
     text-align: center;
     width: 50%;
     border-radius: 30px;
-    margin: 30px 40px;
+    margin: 30px 30px;
     padding: 30px 20px;
     transition: 0.5s;
 
@@ -167,7 +167,7 @@ button:hover {
 @media (max-width:750px) {
     .self1 {
         width: 80%;
-        padding: 0 20px;
+        
     }
 
     .myself_sec3 {
