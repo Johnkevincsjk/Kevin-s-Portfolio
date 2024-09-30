@@ -159,6 +159,11 @@ button:hover {
 
 }
 
+.curr-ex:hover {
+    border: none;
+    box-shadow: none;
+}
+
 #certificate_btn:hover {
     color: black;
     background-color: #ffbd39;
@@ -167,7 +172,7 @@ button:hover {
 @media (max-width:750px) {
     .self1 {
         width: 80%;
-        
+
     }
 
     .myself_sec3 {

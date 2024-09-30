@@ -7,37 +7,32 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import ParticlesComponent from './Components/backgroundparticles/Bg_particles';
 import Projects from './Projects/Projects';
 import Nav from './Components/NavBar/Nav';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
   return (
-    <motion.div className='body'>
+    <div className='body'>
+      <ParticlesComponent id='bg_particales' />
+      <Nav />
       <section id='intro'>
-
-        <Nav />
         <Intro />
       </section>
-
-
-
-
-
       <section id='myself'>
-        {/* <ParticlesComponent id='bg_particales' /> */}
         <Myself />
       </section>
-
-
-
-
+      <section id='projects'>
+        <Projects />
+      </section>
       <section id='skills'>
         <Skills />
+        <Footer />
       </section>
 
 
 
-      <section id='projects'><Projects /></section>
-    </motion.div>
+
+    </div>
   );
 }
 

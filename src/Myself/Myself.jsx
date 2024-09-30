@@ -28,6 +28,17 @@ export default function Myself() {
                 <Lottie className=' myself_ani1' animationData={myself} />
             </div>
 
+            <div className="col myself_sec3 curr-ex">
+                <h1>Current Work Experience</h1>
+                <div className='my_experience'>
+                    <p>
+                        I am currently working as a Backend Executive at <span style={{ color: '#ffbd39' }}>Bajaj Allianz General Insurance</span> for the past <span style={{ color: '#ffbd39' }}>3 years</span>.
+                        In this role, I manage backend operations, optimize databases, and ensure seamless integration of systems.
+                        My responsibilities include handling data processing, troubleshooting backend issues, and collaborating with cross-functional teams to enhance system efficiency.
+                    </p>
+                </div>
+            </div>
+
             <div className="col myself_sec3">
                 <h1>Experience</h1>
                 <div className='my_experience'>
@@ -35,15 +46,6 @@ export default function Myself() {
                     <a href="https://www.guvi.in/share-certificate/6Y1ljz6470g1f0872Q" target='_blank'><motion.button initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} id='certificate_btn'>Download</motion.button></a>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
 
         </div>
     )

@@ -1,7 +1,5 @@
 .intro {
     line-height: 60px;
-
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +12,7 @@
 
 #intro {
     height: 100vh;
+    background-color: #010215;
 }
 
 
@@ -97,7 +96,7 @@
 .github:hover {
     color: yellow;
     filter: drop-shadow(2px 2px 20px yellow);
-    
+
 }
 
 
