@@ -13,12 +13,12 @@ export default function Projects_one(props) {
                         <p>{props.demousername}</p>
                         <h5>Password:</h5>
                         <p>{props.password}</p>
-                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href="https://main--jovial-figolla-438fd1.netlify.app/" target='_black' className="btn btn-primary">Try now</motion.a>
+                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.link} target='_black' className="btn btn-primary">Try now</motion.a>
                     </div>
 
                 </motion.div>
                 <div className="project_Content col-md-6">
-                    <h1 id='project_name'><span style={{ color: "rgb(67, 160, 70)" }}>{props.title}</span> Project</h1>
+                    <h1 id='project_name'><span style={{ color: "#c038ff" }}>{props.title}</span> Project</h1>
                     <p id='project_content'>{props.summary}</p>
                 </div>
             </div>

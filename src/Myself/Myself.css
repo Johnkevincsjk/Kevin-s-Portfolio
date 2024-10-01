@@ -104,6 +104,9 @@ button:hover {
     text-align: center;
     border-bottom: 1px solid #98a81faf;
     width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     h1 {
         font-family: "Bebas Neue", sans-serif;
@@ -111,6 +114,14 @@ button:hover {
         font-size: 4rem;
         color: white;
         font-weight: 900px;
+
+    }
+
+    span {
+        font-size: 60px;
+        color: white;
+        margin-bottom: 35px;
+        margin-left: 10px;
     }
 }
 

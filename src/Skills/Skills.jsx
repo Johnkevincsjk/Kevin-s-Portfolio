@@ -1,5 +1,6 @@
 import '../Skills/Skills.css'
 import { motion } from "framer-motion"
+import { MdHandyman } from "react-icons/md";
 
 import React from 'react'
 
@@ -7,7 +8,7 @@ export default function Skills() {
     return (
         <div className='container-fluid skills_section'>
             <div className="skill_header">
-                <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>Professional Skillset</motion.h1>
+                <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>Professional Skillset <MdHandyman /></motion.h1>
             </div>
 
 
@@ -109,7 +110,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="nodejs.png" />
                     </div>
@@ -206,7 +207,7 @@ export default function Skills() {
 
 
 
-                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
+                <motion.div initial={{ opacity: 0, scale: 0 }} transition={{ uration: 0.5 }} viewport={{ once: true }} whileInView={{ opacity: 1, scale: 1 }} className='col-md-3 skills_cards'>
                     <div className='Skill_image'>
                         <img src="vscode.jpg" />
                     </div>

@@ -5,6 +5,7 @@ import Lottie from 'lottie-react'
 import jk from './jk.json'
 import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
+
 export default function Intro() {
 
     return (

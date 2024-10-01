@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 import './Myself.css'
 import myself from '../Components/assets/myself.json'
 import Lottie from 'lottie-react'
+import { GiStrongMan } from "react-icons/gi";
+
 export default function Myself() {
 
 
@@ -13,7 +15,7 @@ export default function Myself() {
             transition={{ duration: 0.9 }}
             whileInView={{ opacity: 1, scaleX: 1 }} className='container-fluid Myself'>
             <div className="myself_sec1">
-                <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>About Myself </motion.h1>
+                <motion.h1 initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}>About Myself </motion.h1><motion.span initial={{ x: -100, opacity: 0 }} transition={{ duration: 0.5, type: 'spring', stiffness: 500 }} whileInView={{ x: 0, opacity: 1 }}><GiStrongMan /></motion.span>
             </div>
             <motion.div className=' col self1'
                 initial={{ opacity: 0, scale: 0 }}

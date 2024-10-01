@@ -1,6 +1,7 @@
-.Project_body{
+.Project_body {
     height: auto;
 }
+
 .card_main {
     text-align: center;
 }
@@ -24,8 +25,8 @@
 }
 
 .project_card:hover {
-    box-shadow: 1px 1px 8px rgb(67, 160, 70);
-   
+    box-shadow: 1px 1px 8px #a603f2;
+
 }
 
 #project1_img {
@@ -40,6 +41,7 @@
 #project_name {
     color: white;
     font-weight: bolder;
+    
 }
 
 #project_content {
@@ -52,17 +54,21 @@
     width: 100%;
     top: -100%;
     left: 0;
-    background-color: rgb(67, 160, 70);
+    background-color: #a603f2b8;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     transition: 1s;
 
     h5 {
-        font-weight: bolder;
-
+        font-weight: 900;
+        color: white;
 
     }
 
+    p {
+        color: white;
+        font-weight: 900;
+    }
 
 
 
