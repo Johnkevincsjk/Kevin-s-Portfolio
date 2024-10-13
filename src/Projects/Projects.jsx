@@ -41,6 +41,16 @@ export default function Projects() {
                         link="https://fascinating-fenglisu-4af399.netlify.app/"
                     />
                 </div>
+                <div className="project4 p-2">
+                    <Projects_one
+                        img="chatapp.png"
+                        title='Buddy-s Chat App'
+                        summary='Connect instantly with friends and colleagues using Buddy-s Chat App. Enjoy seamless messaging, real-time interactions, and a user-friendly interface for meaningful conversations. Stay connected, anytime, anywhere!'
+                        demousername="demouser@gmail.com"
+                        password='12345678'
+                        link="https://buddy-schat.netlify.app/"
+                    />
+                </div>
 
             </div>
 
