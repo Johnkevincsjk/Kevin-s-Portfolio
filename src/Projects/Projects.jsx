@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Projects_one from '../Components/Projects/Projects_one'
 import { FaAngleDoubleDown } from "react-icons/fa";
 
+// This component contains all project details
 export default function Projects() {
     return (
         <div className='Project_body'>
@@ -18,6 +19,7 @@ export default function Projects() {
                         demousername="demouser123@gmail.com"
                         password='12345678'
                         link="https://main--jovial-figolla-438fd1.netlify.app/"
+                        git_link='https://github.com/Johnkevincsjk/bulkmailer-frontend'
                     />
                 </div>
 
@@ -29,6 +31,7 @@ export default function Projects() {
                         demousername="demouser@gmail.com"
                         password='12345678'
                         link="https://main--king-swear.netlify.app/"
+                        git_link='https://github.com/Johnkevincsjk/E-commerce_FE'
                     />
                 </div>
                 <div className="project3 p-2">
@@ -39,6 +42,7 @@ export default function Projects() {
                         demousername="demouser@gmail.com"
                         password='12345678'
                         link="https://fascinating-fenglisu-4af399.netlify.app/"
+                        git_link=''
                     />
                 </div>
                 <div className="project4 p-2">
@@ -49,6 +53,7 @@ export default function Projects() {
                         demousername="demouser"
                         password='12345678'
                         link="https://buddy-schat.netlify.app/"
+                        git_link='https://github.com/Johnkevincsjk/buddy-s_chat_FE'
                     />
                 </div>
 

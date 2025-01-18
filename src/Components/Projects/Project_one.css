@@ -41,7 +41,7 @@
 #project_name {
     color: white;
     font-weight: bolder;
-    
+
 }
 
 #project_content {
@@ -49,8 +49,12 @@
 }
 
 .card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
     position: absolute;
-    height: 65%;
+    height: 85%;
     width: 100%;
     top: -100%;
     left: 0;
@@ -72,6 +76,9 @@
 
 
 
+}
+.git_btn , .try_btn{
+    margin: 5px;
 }
 
 .project_card:hover .card_body {

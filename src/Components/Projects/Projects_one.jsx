@@ -2,6 +2,7 @@ import React from 'react'
 import '../Projects/Project_one.css'
 import { motion } from 'framer-motion'
 
+// this is for project card component
 export default function Projects_one(props) {
     return (
         <div className="container-fluid card_main">
@@ -13,7 +14,8 @@ export default function Projects_one(props) {
                         <p>{props.demousername}</p>
                         <h5>Password:</h5>
                         <p>{props.password}</p>
-                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.link} target='_black' className="btn btn-primary">Try now</motion.a>
+                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.link} target='_black' className="btn btn-primary try_btn">Try now</motion.a>
+                        <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.git_link} target='_black' className="btn btn-success git_btn">Code</motion.a>
                     </div>
 
                 </motion.div>
