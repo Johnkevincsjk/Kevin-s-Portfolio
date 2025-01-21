@@ -47,6 +47,15 @@ export default function Projects() {
                 </div>
                 <div className="project4 p-2">
                     <Projects_one
+                        img="galleryapp.png"
+                        title='Gallery App'
+                        summary='Gallery App lets users upload and view images with ease. Multer is used for secure and efficient file handling, ensuring a smooth experience for managing your image collection.'
+                        link="https://gallery-app-jk.netlify.app/"
+                        git_link='https://github.com/Johnkevincsjk/Gallery_app/tree/main'
+                    />
+                </div>
+                <div className="project4 p-2">
+                    <Projects_one
                         img="chatapp.png"
                         title='Buddy-s Chat App'
                         summary='Connect instantly with friends and colleagues using Buddy-s Chat App. Enjoy seamless messaging, real-time interactions, and a user-friendly interface for meaningful conversations. Stay connected, anytime, anywhere!'
