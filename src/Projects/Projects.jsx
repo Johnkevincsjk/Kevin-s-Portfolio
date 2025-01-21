@@ -50,6 +50,8 @@ export default function Projects() {
                         img="galleryapp.png"
                         title='Gallery App'
                         summary='Gallery App lets users upload and view images with ease. Multer is used for secure and efficient file handling, ensuring a smooth experience for managing your image collection.'
+                        
+                       
                         link="https://gallery-app-jk.netlify.app/"
                         git_link='https://github.com/Johnkevincsjk/Gallery_app/tree/main'
                     />

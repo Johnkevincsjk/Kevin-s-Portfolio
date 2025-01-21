@@ -10,10 +10,16 @@ export default function Projects_one(props) {
                 <motion.div initial={{ x: -100 }} whileInView={{ x: 0 }} transition={{ type: "spring", stiffness: 500, duration: 0.5 }} className="project_card col-md-6">
                     <img id='project1_img' src={props.img} alt="" />
                     <div className="card_body">
-                        <h5>User Name:</h5>
-                        <p>{props.demousername}</p>
-                        <h5>Password:</h5>
-                        <p>{props.password}</p>
+                        {
+                            props.demousername ? (
+                                <>
+                                    <h5>User Name:</h5>
+                                    <p>{props.demousername}</p>
+                                    <h5>Password:</h5>
+                                    <p>{props.password}</p>
+                                </>
+                            ) : null
+                        }
                         <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.link} target='_black' className="btn btn-primary try_btn">Try now</motion.a>
                         <motion.a initial={{ scale: 1 }} transition={{ duration: 0.2, type: 'spring', stiffness: 700 }} whileHover={{ scale: 1.1 }} href={props.git_link} target='_black' className="btn btn-success git_btn">Code</motion.a>
                     </div>
